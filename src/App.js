@@ -7,19 +7,75 @@
 
 
 
-import logo from './logo.svg';
+// components imported
+import NavBar from './NavBar.js';
+
+// imported styles
 import './App.css';
+import './NavBar.css';
+import './Heading.css';
+
+
+
+function Heading() {
+  return(
+    <div className='heading'>
+      <h1>Brandon Grando<br/>Full-Stack Developer</h1>
+    </div>
+  );
+};
+
+
 
 function App() {
   return (
     <div className="App">
+
+      <Heading />
+
+      <NavBar />
+
       <header className="App-header">
         <p>
-          Brandon Grando<br/>Full-Stack Developer
+          My Portfolio
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          Proficient in:
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>React</li>
+          </ul>
         </p>
       </header>
     </div>
   );
-}
+};
 
+
+
+// exporting components
 export default App;

@@ -1,0 +1,5 @@
+17/07/2022
+    -Learnt how to host on Github Pages, and develop from VS Code and delopy to said Pages
+    
+    to-do:
+        -NavBar is a mess, it is a component but navigational links are not really working
