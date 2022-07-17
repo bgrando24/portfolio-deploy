@@ -1,9 +1,9 @@
 // INSTRUCTIONS FOR UPDATING AND PUSHING TO GITHUB PAGES
   // 1. Save changes
-  // 2. in terminal: 'run npm build'
-  // 3. in terminal: 'run npm deploy'
+  // 2. in terminal: 'npm run build'
+  // 3. in terminal: 'npm run deploy'
     // this should push build changes to gh-pages branch and update page soon after
-
+      // wait for the jobs in "Actions" to finish running
 
 
 
@@ -14,18 +14,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello, world!
+          Brandon Grando<br/>Full-Stack Developer
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
