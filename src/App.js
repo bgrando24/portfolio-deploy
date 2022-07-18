@@ -9,6 +9,7 @@
 
 // components imported
 import NavBar from './NavBar.js';
+import Heading from './Heading.js';
 
 // imported styles
 import './App.css';
@@ -17,13 +18,7 @@ import './Heading.css';
 
 
 
-function Heading() {
-  return(
-    <div className='heading'>
-      <h1>Brandon Grando<br/>Full-Stack Developer</h1>
-    </div>
-  );
-};
+
 
 
 
