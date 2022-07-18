@@ -5,6 +5,9 @@
 }
 
 .techmenu-items-div button {
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
     border-style: none;
     background: none;
     color: white;
@@ -12,5 +15,7 @@
 }
 
 .techmenu-items-div button:hover {
-    opacity: 0.5;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
 }
