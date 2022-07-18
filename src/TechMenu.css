@@ -1,0 +1,16 @@
+
+.techmenu-div {
+    
+    margin-top: -50vh;
+}
+
+.techmenu-items-div button {
+    border-style: none;
+    background: none;
+    color: white;
+    font-size: calc(1px + 2vmin);;
+}
+
+.techmenu-items-div button:hover {
+    opacity: 0.5;
+}

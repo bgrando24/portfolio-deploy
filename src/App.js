@@ -10,11 +10,13 @@
 // components imported
 import NavBar from './NavBar.js';
 import Heading from './Heading.js';
+import TechMenu from './TechMenu.js';
 
 // imported styles
 import './App.css';
 import './NavBar.css';
 import './Heading.css';
+import './TechMenu.css';
 
 
 
@@ -31,40 +33,9 @@ function App() {
       <NavBar />
 
       <header className="App-header">
-        <p>
-          My Portfolio
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          Proficient in:
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>React</li>
-          </ul>
-        </p>
+
+          <TechMenu />
+
       </header>
     </div>
   );
