@@ -15,6 +15,7 @@ import NavBar from './NavBar.js';
 import Heading from './Heading.js';
 import {TechMenu_Parent} from './TechMenu/TechMenu-Parent.js';
 import { Footer_Parent } from './footer/Footer-Parent.js';
+import { Clock } from './clock/Clock.js';
 
 // imported styles
 import './App.css';
@@ -40,6 +41,8 @@ export class App extends React.Component {
       <NavBar />
 
       <TechMenu_Parent />
+
+      <Clock />
 
       <Footer_Parent />
         
