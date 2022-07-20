@@ -7,17 +7,24 @@
 
 
 
+import React from 'react';
+
+
 // components imported
 import NavBar from './NavBar.js';
 import Heading from './Heading.js';
 import {TechMenu_Parent} from './TechMenu/TechMenu-Parent.js';
+import { Footer_Parent } from './footer/Footer-Parent.js';
 
 // imported styles
 import './App.css';
 import './NavBar.css';
 import './Heading.css';
 import './TechMenu/styles/TechMenu-Parent.css';
-import React from 'react';
+import './footer/styles/Footer-View.css';
+
+
+
 
 
 
@@ -32,11 +39,10 @@ export class App extends React.Component {
 
       <NavBar />
 
-      <header className="App-header">
+      <TechMenu_Parent />
 
-          <TechMenu_Parent />
-
-      </header>
+      <Footer_Parent />
+        
     </div>
     );
   }
