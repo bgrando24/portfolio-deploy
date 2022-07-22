@@ -5,7 +5,7 @@ import { TechMenu_View } from './TechMenu-View';
 export function TechMenu_Parent() {
 
     // used for setting a random tech in the 'TechMenu-View' 
-    const techArray = ["HTML", "CSS", "JavaScript", "React"];
+    const techArray = ["HTML", "CSS", "JavaScript", "React"]
 
     // generates random index number used to pick a technology string from above array
     let randomTech = techArray[ Math.floor(Math.random() * this.techArray.length) ];
