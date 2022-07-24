@@ -1,0 +1,31 @@
+
+.footer-view {
+    width: 100%;
+    margin-top: 50%;
+}
+
+.footer-view ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.footer-view li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.footer-view li {
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.footer-view li:hover {
+    transition: 0.2s;
+    opacity: 0.5;
+}

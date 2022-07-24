@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Footer_View() {
+export default function Footer_View() {
 
     return (
         <div className="footer-view">

@@ -13,8 +13,8 @@ import React from 'react';
 // components imported
 import NavBar from './NavBar.js';
 import Heading from './Heading.js';
-import {TechMenu_Parent} from './TechMenu/TechMenu-Parent.js';
-import { Footer_Parent } from './footer/Footer-Parent.js';
+import { TechMenu_Parent } from './TechMenu/TechMenu-Parent.js';
+import { Footer_Parent } from './Footer/Footer-Parent.js';
 import { Clock } from './clock/Clock.js';
 
 // imported styles
@@ -22,7 +22,7 @@ import './App.css';
 import './NavBar.css';
 import './Heading.css';
 import './TechMenu/styles/TechMenu-Parent.css';
-import './footer/styles/Footer-View.css';
+import './Footer/styles/Footer-View.css';
 
 
 
